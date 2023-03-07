@@ -145,11 +145,29 @@ p{
 
  /* blocco verde */
 
- .conteinerGreen{
+ .conteinerGreat{
     width: 1200px;
     min-height: 500px;
     margin: 1em;
-    background-color: green;
+    text-align: center;
+    
+ }
+
+ .boxAdventure{
+    background-image: url(./img/stars.svg);
+    background-size: cover;
+    max-width: 30%;
+    margin: 1em auto;
+ }
+
+ .downloadTwo{
+    background-color: violet;
+    max-width: 20%;
+    margin: 1em auto;
+    min-height: 50px;
+    padding: 1em;
+    border-radius: 20px;
+}
  }
 
  /* inizio footer */
