@@ -11,6 +11,7 @@ header{
 }
 .imgHeader{
     background-image: url("./img/jumbo.png");
+    background-size: cover;
 }
 
 .box{
@@ -99,16 +100,30 @@ header{
     display: flex;    
 }
 
-.boxPaleBlue{
-    background-color: #1E90FF;
+.boxImg{
+    /* background-color: #1E90FF; */
     width: 60%;
+    min-height: 70%;
+    
+}
+.item1{
+    background-repeat: no-repeat;
+
+}
+
+.boxText{
+    /* background-color: #FFC0CB; */
+    width: 40%;
     min-height: 70%;
 }
 
-.boxSoftPink{
-    background-color: #FFC0CB;
-    width: 40%;
-    min-height: 70%;
+h1{
+    font-size: 3em;
+    margin: 1em 0 1em 0;
+}
+
+p{
+    line-height: 2em;
 }
 
  /* parte grey */
